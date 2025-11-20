@@ -1,25 +1,20 @@
 <?php
-function escribirTresNumeros($n1, $n2, $n3) {
-    
-    $archivo = "datosEjercicio.txt";
+
+/*
+Crea una función denominada obtenerSuma (tipo función,
+devolverá un valor numérico)
+ que reciba una ruta de archivo como parámetro,
+lea los números existentes en cada línea del archivo, 
+y devuelva la suma de todos esos números. 
+Por ejemplo, la suma del contenido del archivo "02.-datos.text" 
+podría ser la siguiente:
+
+*/
+
+function obtenerSuma($ruta){
 
     
-    // - Si no existe, PHP lo crea automát
-    // - Si existe, lo sobreescribe
-    $fichero = fopen($archivo, "w");
-
-    // Escribimos los tres números, cada uno en una línea
-    fwrite($fichero, $n1 . "\n");
-    fwrite($fichero, $n2 . "\n");
-    fwrite($fichero, $n3 . "\n");
-
     
-    fclose($fichero);
-
-    
-    echo "Realizada la escritura con éxito";
 }
 
-
-escribirTresNumeros(10, 20, 30);
 ?>
