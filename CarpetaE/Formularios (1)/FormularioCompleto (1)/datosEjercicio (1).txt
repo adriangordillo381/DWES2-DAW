@@ -1,0 +1,2 @@
+{"Nombre":"Jesus","Apellidos":"Palo","Sexo":"hombre","Fecha":"1966-12-02","Modulos":"Gestion, Lenguajem, Entorno"}
+{"Nombre":"Estrella","Apellidos":"Chamorro","Sexo":"mujer","Fecha":"2002-09-01","Modulos":"Gestión de Base de Datos, Lenguaje de Marcas y Sistema de Gestión Empresarial, Entorno de Desarrollo"}

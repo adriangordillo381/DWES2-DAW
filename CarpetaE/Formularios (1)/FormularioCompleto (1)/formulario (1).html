@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel=
+    "stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="formulario">
+    <form action="formulario.php" method="get">
+        <h4>
+            Ejemplo de formulario. Matrícula de DAW 
+            <span style="float: right;">Estrella Chamorro Real</span>
+            </h4>
+       
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre"  pattern="[A-Za-záéíóúÁÉÍÓÚñÑ ]+" 
+         title="Solo letras sin tildes, ñ ni caracteres especiales">
+        <label for="apellidos">Apellidos</label>
+        <input type="text" name="apellidos">
+        <label for="sexo">Sexo</label>
+        <input type="radio" name="sexo" value="hombre">H
+         <input type="radio" name="sexo" value="mujer">M
+         <br>
+         <label for="fecha">Fecha de nacimiento</label>
+         <input type="date" name="fecha">
+          <table >
+         
+            <tr>
+                <th> Escoge los modulos en los que te matriculas </th>
+            </tr>
+    
+        <tr>   
+            <td><input type="checkbox" name="modulos[]" value="Lenguajes de programación" >Lenguajes de programación</td>
+             <td><input type="checkbox" name="modulos[]" value="Programación Entorno Cliente" >Programación Entorno Cliente</td>
+        </tr>
+        <tr>   
+            <td><input type="checkbox" name="modulos[]" value="Gestión de Base de Datos" >Gestión de Base de Datos</td>
+             <td><input type="checkbox" name="modulos[]" value="Programación entorno Servidor" >Programación entorno Servidor</td>
+        </tr>
+        <tr>   
+            <td><input type="checkbox" name="modulos[]" value="Lenguaje de Marcas y Sistema de Gestión Empresarial" >Lenguaje de Marcas y Sistema de Gestión Empresarial</td>
+             <td><input type="checkbox" name="modulos[]" value="Diseño de Interfaces" >Diseño de Interfaces</td>
+        </tr>
+          <tr>   
+            <td><input type="checkbox" name="modulos[]" value="Entorno de Desarrollo" >Entorno de Desarrollo</td>
+             <td><input type="checkbox" name="modulos[]" value="Despliegue  de interfaces" >Despliegue de interfaces</td>
+        </tr> 
+         <tr>   
+            
+            <td><input type="checkbox" name="modulos[]" value="Sistema de informacion" >Sistema de informacion</td>
+             <td><input type="checkbox" name="modulos[]" value="Iniciativa Empresa Emprendedora" >Iniciativa Empresa Emprendedora</td>
+        </tr>         
+         <tr>   
+            <td><input type="checkbox" name="modulos[]" value="Formacion y Orientacion Laboral" >Formacion y Orientacion Laboral</td>
+             <td><input type="checkbox" name="modulos[]" value="Proyecto de Desarrollo de Aplicaciones Web" >Proyecto de Desarrollo de Aplicaciones Web </td>
+        </tr>      
+        </table>
+        <br>
+        
+        <label for="comentarios">Estudios previos</label><br>
+        <textarea name="comentarios" id="comentarios"></textarea><br>
+         <button type="submit" name="accion" value="Grabar">Grabar</button>
+         <button type="reset" name="accion" value="Restablecer">Restablecer</button>
+         <button type="submit" name="accion" value="Ver contenido">Ver contenido </button>
+         <button type="submit" name="accion" value="Ordenar por nombre">Ordenar por nombre</button>       
+        <br>
+        <p>Pulse el botón de "Grabar" para formalizar la matrícula</p>
+        <p>Pulse el botón de "Restablecer" para limpiar el formulario</p>
+        <p>Pulse el botón de "Ver contenido" para mostrar contenido archivo  </p>
+    </form>
+    </div>
+</body>
+</html>

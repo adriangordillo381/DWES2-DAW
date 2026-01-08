@@ -1,0 +1,15 @@
+0000000000000000000000000000000000000000 14a0c5bf9bd2430461ee7119ca661c4de5660c1d Estrella Chamorro Real <echam@Estrella.(none)> 1759305310 +0200	clone: from https://github.com/echamorror01/Desarrollo-Web-Entorno-Servidor.git
+14a0c5bf9bd2430461ee7119ca661c4de5660c1d c7d823c77fb64ec0b0306c563edd7bc12371ca40 echamorror01 <echamorror01@saurezdefigueroa.es> 1760181019 +0200	pull --tags origin main: Fast-forward
+c7d823c77fb64ec0b0306c563edd7bc12371ca40 c33db2f4afecbbb85a854254e970c9ef2df6ff03 echamorror01 <echamorror01@saurezdefigueroa.es> 1760605361 +0200	pull --tags origin main: Fast-forward
+c33db2f4afecbbb85a854254e970c9ef2df6ff03 4bf83a9eb48b1e41add0b297de94169b59454c0b echamorror01 <echamorror01@saurezdefigueroa.es> 1760953698 +0200	pull: Fast-forward
+4bf83a9eb48b1e41add0b297de94169b59454c0b 6bb76f7d137ce482e9b9ddbcc380e4a3bba626df echamorror01 <echamorror01@saurezdefigueroa.es> 1761561928 +0100	pull --tags origin main: Fast-forward
+6bb76f7d137ce482e9b9ddbcc380e4a3bba626df 1130d8b1ce121899b431c8e3a20a6e509788da5f echamorror01 <echamorror01@saurezdefigueroa.es> 1763034180 +0100	commit: Guardando cambios locales antes del pull
+1130d8b1ce121899b431c8e3a20a6e509788da5f 8f7b64a068ca992cff4a0615f271dbd2c0083c7e echamorror01 <echamorror01@saurezdefigueroa.es> 1763034263 +0100	commit (merge): Merge branch 'main' of https://github.com/echamorror01/Desarrollo-Web-Entorno-Servidor
+8f7b64a068ca992cff4a0615f271dbd2c0083c7e 700a8b6b07a0a64cd6b8f8a7783f8412399255ae echamorror01 <echamorror01@saurezdefigueroa.es> 1763492393 +0100	commit: ok
+700a8b6b07a0a64cd6b8f8a7783f8412399255ae 4da73b017afa8fb116c3533773ea78f2e4b94874 echamorror01 <echamorror01@saurezdefigueroa.es> 1764350111 +0100	pull --tags origin main: Fast-forward
+4da73b017afa8fb116c3533773ea78f2e4b94874 c58d872966fd7cb9af3fed47ce880aa1edaf5206 echamorror01 <echamorror01@saurezdefigueroa.es> 1764527939 +0100	commit: ok
+c58d872966fd7cb9af3fed47ce880aa1edaf5206 9de86976bd50764041eefe65f8e06666a6e51916 echamorror01 <echamorror01@saurezdefigueroa.es> 1764675368 +0100	commit: ok
+9de86976bd50764041eefe65f8e06666a6e51916 eceb4b53ee71e5ae15b518183d07fbc0b1b711b0 echamorror01 <echamorror01@saurezdefigueroa.es> 1764675373 +0100	pull --tags origin main: Merge made by the 'ort' strategy.
+eceb4b53ee71e5ae15b518183d07fbc0b1b711b0 1009dac72e6c18e07c04063b2c54f01939aa4484 echamorror01 <echamorror01@saurezdefigueroa.es> 1764697314 +0100	commit: ok
+1009dac72e6c18e07c04063b2c54f01939aa4484 3ded7e7740d40cfc44439ad2a573c1583582b194 echamorror01 <echamorror01@saurezdefigueroa.es> 1764742910 +0100	pull --tags origin main: Fast-forward
+3ded7e7740d40cfc44439ad2a573c1583582b194 a6d1f4a07f674a1cb63e8728ede94f8de11882ca echamorror01 <echamorror01@saurezdefigueroa.es> 1764771444 +0100	commit: ok
