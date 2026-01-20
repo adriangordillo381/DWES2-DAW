@@ -1,0 +1,72 @@
+<!--Gordillo_Bermudez_Adrian_Dic-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Matrícula DAW</title>
+</head>
+<body>
+
+<h2>Matrícula de DAW</h2>
+
+<!-- Formulario principal -->
+<form action="acciones.php" method="POST">
+    <input type="hidden" name="accion" value="grabar">
+
+    <label>Nombre y apellidos:</label><br>
+    <input type="text" name="nombre" required><br><br>
+
+    <label>Fecha de nacimiento:</label><br>
+    <input type="date" name="fecha" required><br><br>
+
+    <label>Sexo:</label><br>
+    <input type="radio" name="sexo" value="Hombre" required> Hombre
+    <input type="radio" name="sexo" value="Mujer"> Mujer
+    <input type="radio" name="sexo" value="Otro"> Otro
+    <br><br>
+
+    <label>Asignaturas:</label><br>
+    <input type="checkbox" name="asignaturas[]" value="Bases de Datos"> Bases de Datos<br>
+    <input type="checkbox" name="asignaturas[]" value="Entornos de Desarrollo"> Entornos de Desarrollo<br>
+    <input type="checkbox" name="asignaturas[]" value="Lenguajes de Marcas"> Lenguajes de Marcas<br>
+    <input type="checkbox" name="asignaturas[]" value="Programación"> Programación<br>
+    <input type="checkbox" name="asignaturas[]" value="Sistemas Informáticos"> Sistemas Informáticos<br>
+    <input type="checkbox" name="asignaturas[]" value="FOL"> FOL<br>
+    <br>
+
+    <label>Observaciones:</label><br>
+    <textarea name="observaciones" cols="40" rows="4"></textarea><br><br>
+
+    <button type="submit">Grabar</button>
+    <button type="reset">Restablecer</button>
+</form>
+
+<br><br>
+
+<!-- Ver contenido completo -->
+<form action="acciones.php" method="GET">
+    <input type="hidden" name="accion" value="ver">
+    <button type="submit">Ver contenido completo</button>
+</form>
+
+<br>
+
+<!-- Filtrar por asignatura -->
+<form action="acciones.php" method="GET">
+    <input type="hidden" name="accion" value="filtrar">
+
+    <label>Mostrar alumnos matriculados en:</label>
+    <select name="modulo">
+        <option value="Bases de Datos">Bases de Datos</option>
+        <option value="Entornos de Desarrollo">Entornos de Desarrollo</option>
+        <option value="Lenguajes de Marcas">Lenguajes de Marcas</option>
+        <option value="Programación">Programación</option>
+        <option value="Sistemas Informáticos">Sistemas Informáticos</option>
+        <option value="FOL">FOL</option>
+    </select>
+
+    <button type="submit">Filtrar</button>
+</form>
+
+</body>
+</html>

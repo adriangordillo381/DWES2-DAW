@@ -1,0 +1,2 @@
+Nombre: ADRIAN | Fecha: 2025-12-16 | Sexo: Hombre | Asignaturas: Bases de Datos | Observaciones: ggrs
+Nombre: ADRIAN | Fecha: 2000-04-24 | Sexo: Hombre | Asignaturas: Bases de Datos, Entornos de Desarrollo, Programación | Observaciones: nada
