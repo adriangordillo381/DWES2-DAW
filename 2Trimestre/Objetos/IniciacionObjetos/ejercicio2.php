@@ -1,12 +1,16 @@
 <?php
 
-//Diseña una clase llamada alumno.
-//seran atributos de alumno, su numero de expediente, nombre, apellido,
-// fecha de nacimiento y curso en el que se matricula. La clase debe incluir
-//un constructor y los metodos get y set correspondientes. instancia varios objetos de esta
-//clase y prueba los metodos creados
-class Alumno
-{
+/*
+2.- Crea un nuevo proyecto en el que copies la clase Alumno del ejercicio 1
+ y modifícala añadiendo un atributo estático que almacene el número de objetos
+  de esta clase que se instancian (que se crean). El atributo debe ser también privado. 
+  Crea un método que permita acceder al valor de ese atributo.
+
+*/
+
+
+class Alumno {
+
     // Atributos (propiedades)
     private $expediente;
     private $nombre;
@@ -14,13 +18,22 @@ class Alumno
     private $fechaNacimiento;
     private $curso;
 
+    private static $contadoralumos =0;
+
     public function __construct($expediente, $nombre, $apellido, $fechaNacimiento, $curso)
     {
-        $this->expediente = $expediente;
+        $this->expediente = $expediente;// se utiliza para atributos de la clase
         $this->nombre = $nombre;
         $this->apellido = $apellido;
         $this->fechaNacimiento = $fechaNacimiento;
         $this->curso = $curso;
+
+        self::$contadoralumos++; // se utiliza para atributos estaticos de la clase 
+    }
+
+
+    public static function getNumeroAlumnos(){
+       return self::$contadoralumos;
     }
 
     public function getExpediente()
@@ -77,6 +90,10 @@ class Alumno
         $this->curso = $curso;
         return $this;
     }
+
+    
 }
 
 
+
+?>
