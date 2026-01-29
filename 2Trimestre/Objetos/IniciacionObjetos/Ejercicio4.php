@@ -12,11 +12,44 @@ mostrarAlumnos, muestra en pantalla cada alumno y su nota media.
 
     class gestionAlumno {
 
-        private $array = [];
+         private $array = [];
+
+    public function llenarArray(){
+
+         for ($i=1; $i<=25; $i++) { 
             
+         $alumno = new Alumno(
+            $i,
+            "Alumno" .$i,
+            "Apellido" .$i,
+            "24/02/2000",
+            rand(1,4),
+            rand(1,10),
+            rand(1,10)
+    
+         );
+
+         $this->array[]= $alumno; //this es este objeto y señala a su atributo que se pone sin $
+         
+         
+         }
+    
+    }
+    public function mostrarAlumnos(){
+        foreach($this->array as $alumno){
+
+        echo "Expediente " . $alumno->getExpediente ."<br>";
         }
-class Alumno
-{
+    }
+
+    
+        
+}
+
+    
+
+    class Alumno{
+
     private int $expediente;
     private string $nombre;
     private string $apellido;
@@ -112,6 +145,10 @@ class Alumno
         $this->nota2 = $nota2;
         return $this;
     }
-}
 
-    
+      public function mediaNotas()
+    {
+        return ($this->nota1 + $this->nota2) / 2;
+    }
+
+}
